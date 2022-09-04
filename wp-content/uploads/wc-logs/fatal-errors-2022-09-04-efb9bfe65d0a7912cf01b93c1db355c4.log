@@ -1,0 +1,124 @@
+2022-09-04T06:11:23+00:00 CRITICAL Object of class WooCommerce could not be converted to string в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 284
+
+2022-09-04T06:11:43+00:00 CRITICAL Object of class WP_Post could not be converted to string в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 284
+
+2022-09-04T06:12:28+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::post_category() in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php:284
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(307): general_options_product_tab_content('')
+#1 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\OpenServer\domains\abel\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(53): do_action('woocommerce_pro...')
+#4 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\wp-admin\includes\template.php(1401): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#6 C:\OpenServer\domains\abel\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\O в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 284
+
+2022-09-04T07:24:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 375 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(375): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:25:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 375 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(375): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:26:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 320 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(320): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:26:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 320 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(320): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\wp-admin\post-new.php(10): require_once('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:26:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 320 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(320): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:28:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_enqueue_script(), 0 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 320 and at least 1 expected in C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php:346
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(320): wp_enqueue_script()
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\functions.wp-scripts.php на строке 346
+
+2022-09-04T07:30:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php on line 320 and at least 2 expected in C:\OpenServer\domains\abel\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php(320): add_action('wp_enqueue_scri...')
+#1 C:\OpenServer\domains\abel\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\abel\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\abel\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\abel\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\abel\wp-includes\plugin.php на строке 400
+
+2022-09-04T07:31:32+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 289
+
+2022-09-04T07:31:32+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 289
+
+2022-09-04T08:35:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php:378
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(307): ACF_product_content('')
+#1 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\OpenServer\domains\abel\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\content-single-product.php(72): do_action('woocommerce_aft...')
+#4 C:\OpenServer\domains\abel\wp-includes\template.php(772): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\OpenServer\\d...', false)
+#6 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\OpenServer\domains\abel\wp-includes\template-loader.php(106): include('C:\\OpenS в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 378
+
+2022-09-04T08:45:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php:378
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(307): ACF_product_content('')
+#1 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\OpenServer\domains\abel\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\content-single-product.php(72): do_action('woocommerce_aft...')
+#4 C:\OpenServer\domains\abel\wp-includes\template.php(772): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\OpenServer\\d...', false)
+#6 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\OpenServer\domains\abel\wp-includes\template-loader.php(106): include('C:\\OpenS в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 378
+
+2022-09-04T08:48:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php:378
+Stack trace:
+#0 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(307): ACF_product_content('')
+#1 C:\OpenServer\domains\abel\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\OpenServer\domains\abel\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\content-single-product.php(72): do_action('woocommerce_aft...')
+#4 C:\OpenServer\domains\abel\wp-includes\template.php(772): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\OpenServer\\d...', false)
+#6 C:\OpenServer\domains\abel\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\OpenServer\domains\abel\wp-includes\template-loader.php(106): include('C:\\OpenS в C:\OpenServer\domains\abel\wp-content\themes\storefront\functions.php на строке 378
+
